@@ -11,7 +11,8 @@
     "validate": "node dist/validator/cli.js",
     "forge": "node dist/core/cli.js",
     "test": "jest",
-    "dev": "ts-node src/core/orchestrator.ts"
+    "dev": "ts-node src/core/orchestrator.ts",
+    "demo": "open demo/index.html"
   },
   "dependencies": {
     "better-sqlite3": "^9.4.0",
